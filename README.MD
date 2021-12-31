@@ -49,6 +49,8 @@ func iterBinarySearch(array []int, target int, lowIndex int, highIndex int) int 
 
 Время выполнение алгоритма не всегда на прямую зависит от нотации "О" большое. Также стоит принимать во внимание скорость отработки одного шага алгоритма.
 
+![OBigPic](./images/OBigPic.png )
+
 ## Глава 2 - Сортировка выбором ## 
 
 - Массивы и Linked Lists
