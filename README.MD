@@ -21,6 +21,21 @@
 
 - Бинарный поиск
 
+``` package main
+
+func binarySearch(array []int, target int, lowIndex int, highIndex int) int {
+	if highIndex < lowIndex {
+		return -1
+	}
+	mid := int((lowIndex + highIndex) / 2)
+	if array[mid] > target {
+		return binarySearch(array, target, lowIndex, mid)
+	} else if array[mid] < target {
+		return binarySearch(array, target, mid+1, highIndex)
+	} else {
+		return mid
+	}
+} ```
 
 
 - О-большое
