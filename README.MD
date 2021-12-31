@@ -35,7 +35,8 @@ func binarySearch(array []int, target int, lowIndex int, highIndex int) int {
 	} else {
 		return mid
 	}
-} ```
+} 
+```
 
 
 - О-большое
